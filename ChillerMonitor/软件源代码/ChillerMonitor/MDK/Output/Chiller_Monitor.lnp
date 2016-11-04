@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+".\output\startup_stm32f10x_hd.o"
+".\output\key.o"
+".\output\led.o"
+".\output\delay_timer.o"
+".\output\j12864.o"
+".\output\display.o"
+".\output\timer.o"
+".\output\io_process.o"
+".\output\tempra_ad.o"
+".\output\stm32flash.o"
+".\output\stm32f10x_gpio.o"
+".\output\stm32f10x_rcc.o"
+".\output\misc.o"
+".\output\stm32f10x_tim.o"
+".\output\stm32f10x_adc.o"
+".\output\stm32f10x_dma.o"
+".\output\stm32f10x_flash.o"
+".\output\core_cm3.o"
+".\output\system_stm32f10x.o"
+".\output\main.o"
+".\output\stm32f10x_it.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listing\Chiller_Monitor.map" -o .\Output\Chiller_Monitor.axf
